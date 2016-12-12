@@ -13,6 +13,17 @@ namespace Vidly
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //Allow init routing via attributes
+            //Дозволяємо ініціалізацію роутингу з за допомогою атрибутів
+            routes.MapMvcAttributeRoutes();
+
+            //routes.MapRoute(
+            //        "MoviesByReleaseDate",
+            //        "movies/released/{year}/{month}",
+            //        new { controller = "Movies", action = "ByReleaseDate" },
+            //        new { year = @"\d{4}", month = @"\d{2}" }
+            //    );
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
