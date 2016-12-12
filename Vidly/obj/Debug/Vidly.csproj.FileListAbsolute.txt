@@ -67,3 +67,5 @@ G:\Programming\vs_projects\Vidly\Vidly\Vidly\bin\Microsoft.Owin.Security.Microso
 G:\Programming\vs_projects\Vidly\Vidly\Vidly\obj\Debug\Vidly.dll
 G:\Programming\vs_projects\Vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
 G:\Programming\vs_projects\Vidly\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
+G:\Programming\vs_projects\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+G:\Programming\vs_projects\Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
