@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations;
 
 namespace Vidly.Models
 {
@@ -9,14 +10,18 @@ namespace Vidly.Models
     {
         public int Id { get; set; }
 
+        [Required]
+        [StringLength(255)]
         public string Name { get; set; }
 
-        public override string ToString()
-        {
-            System.Text.StringBuilder sb = new System.Text.StringBuilder();
-            sb.Append("Id = " + this.Id);
-            sb.Append("\nName = " + this.Name);
-            return sb.ToString();
-        }
+        [Required]
+        public Genre Genre { get; set; }
+        public byte GenreId { get; set; }
+
+        public DateTime DateAdded { get; set; }
+
+        public DateTime ReleaseDate { get; set; }
+
+        public byte NumberInStock { get; set; }
     }
 }
