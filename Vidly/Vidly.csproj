@@ -191,6 +191,30 @@
     <Compile Include="Migrations\201612122229213_PopulateMembershipTypes.Designer.cs">
       <DependentUpon>201612122229213_PopulateMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612122256523_AddAnotationToCustomerName.cs" />
+    <Compile Include="Migrations\201612122256523_AddAnotationToCustomerName.Designer.cs">
+      <DependentUpon>201612122256523_AddAnotationToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612122323475_PopulateCustomers.cs" />
+    <Compile Include="Migrations\201612122323475_PopulateCustomers.Designer.cs">
+      <DependentUpon>201612122323475_PopulateCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612122345356_InitalModel.cs" />
+    <Compile Include="Migrations\201612122345356_InitalModel.Designer.cs">
+      <DependentUpon>201612122345356_InitalModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612122351433_AddNameTomembershipType.cs" />
+    <Compile Include="Migrations\201612122351433_AddNameTomembershipType.Designer.cs">
+      <DependentUpon>201612122351433_AddNameTomembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612122352402_PopulateMembershipTypes1.cs" />
+    <Compile Include="Migrations\201612122352402_PopulateMembershipTypes1.Designer.cs">
+      <DependentUpon>201612122352402_PopulateMembershipTypes1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612130001399_PopulateCustomers1.cs" />
+    <Compile Include="Migrations\201612130001399_PopulateCustomers1.Designer.cs">
+      <DependentUpon>201612130001399_PopulateCustomers1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -288,6 +312,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612122229213_PopulateMembershipTypes.resx">
       <DependentUpon>201612122229213_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612122256523_AddAnotationToCustomerName.resx">
+      <DependentUpon>201612122256523_AddAnotationToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612122323475_PopulateCustomers.resx">
+      <DependentUpon>201612122323475_PopulateCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612122345356_InitalModel.resx">
+      <DependentUpon>201612122345356_InitalModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612122351433_AddNameTomembershipType.resx">
+      <DependentUpon>201612122351433_AddNameTomembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612122352402_PopulateMembershipTypes1.resx">
+      <DependentUpon>201612122352402_PopulateMembershipTypes1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612130001399_PopulateCustomers1.resx">
+      <DependentUpon>201612130001399_PopulateCustomers1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
