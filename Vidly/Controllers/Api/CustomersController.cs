@@ -66,7 +66,6 @@ namespace Vidly.Controllers.Api
                 return NotFound();
 
             Mapper.Map(customerDto, customerInDb);
-
             _context.SaveChanges();
 
             return Ok();
