@@ -8,6 +8,13 @@ namespace Vidly.ViewModels
 {
     public class CustomerFormViewModel
     {
+        public string Title {
+            get {
+                return (Customer.Id == 0) 
+                    ? "Create Customer" 
+                    : "Edit Customer";
+            }
+        }
         public List<MembershipType> MembershipTypes { get; set; }
         public Customer Customer { get; set; }
     }
